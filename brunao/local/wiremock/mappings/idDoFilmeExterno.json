@@ -1,0 +1,12 @@
+{
+  "request": {
+    "urlPathPattern": "/idfilmeExterno/(.*)",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "id": "12345"
+    }
+  }
+}

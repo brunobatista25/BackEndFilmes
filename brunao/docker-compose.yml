@@ -1,0 +1,9 @@
+wiremock:
+  image: holomekc/wiremock-gui:latest
+  ports:
+    - "8091:8080"
+  volumes:
+    - ./local/wiremock/mappings/:/home/wiremock/mappings
+    - ./local/wiremock/__files/:/home/wiremock/__files
+  environment:
+    WIREMOCK_OPTIONS: "--local-response-templating, --root-dir=/home/wiremock"

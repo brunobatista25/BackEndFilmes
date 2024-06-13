@@ -1,0 +1,11 @@
+{
+  "request": {
+    "url": "/idfilmeExterno/123",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "body.json",
+    "transformers": ["response-template"]
+  }
+}

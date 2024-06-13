@@ -1,0 +1,17 @@
+{
+  "request": {
+    "url": "/validarHeader",
+    "method": "GET",
+    "headers": {
+      "optional-header": {
+        "equalTo": "12345"
+      }
+    }
+  },
+  "response": {
+    "status": 404,
+    "jsonBody": {
+      "mensagem": "Header Inválido"
+    }
+  }
+}
